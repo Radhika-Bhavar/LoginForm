@@ -1,0 +1,109 @@
+
+   
+     /* login  form  */
+    .form {
+        width: 300px;
+        background-color: rgba(17, 24, 39, 1);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 20px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+        border-radius: 5px;
+        font-family: inherit;
+      }
+      
+      .input {
+        font-size: 15px;
+        padding: 15px 10px;
+        border-radius: 5px;
+        border:none;
+        margin-top: 10px;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .2), 0 .5px .5px rgba(0, 0, 0, .2);
+        outline: none;
+      }
+      
+      .input:focus {
+        outline: 1.2px solid #1877f2;
+      }
+      
+      #loginBtn {
+        margin-top: 10px;
+        width: 100%;
+        padding: 10px 20px;
+        align-self: center;
+        background: rgb(112, 79, 143);
+        border: none;
+        border-radius: 8px;
+        color:rgba(243, 244, 246, 1);
+        font-size: 1.3rem;
+        font-weight: bold;
+      }
+      
+      #loginBtn:hover {
+        background: rgb(179, 148, 209);;
+      }
+      
+      #forgotPassword {
+        text-align: center;
+        position: relative;
+        margin-top: 10px;
+        width: 100%;
+        font-size: 13px;
+        align-self: center;
+        font-weight: bold;
+        color: #1877f2;
+      }
+      
+      #forgotPassword::after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: .5px;
+        bottom: -25px;
+        left: 0;
+        background: #dadde1;
+      }
+      
+      #forgotPassword:hover {
+        text-decoration: underline;
+
+      }
+       /* social site */
+       .message{
+        text-align: center;
+        color: aliceblue;
+       } 
+         
+        .fa-brands{  
+        padding: 10px;  
+      text-align: center;  
+         margin: 5px 5px;   
+        font-size: 30px;  
+        width: 50px;  
+      }   
+      .fa-facebook {  
+        background: #3B5998;  
+        color: white;  
+      }  
+      .fa-twitter {  
+        background: #55ACEE;  
+        color: white;  
+      }  
+       
+        
+      .fa-google {  
+        background: #dd4b39;  
+        color: white;  
+      }  
+     
+      .fa:hover {  
+          opacity: 0.9;  
+      }   
+      
+
+       /* END CSS FORM */
+
+
+    
+
